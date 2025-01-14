@@ -64,6 +64,9 @@
   font-weight: 200;
 }
 
+::selection{
+  color: rgb(192, 44, 76);
+}
 .Footer button{
   background: transparent;
   border: none;
@@ -102,7 +105,7 @@ font-size: 1.3rem;
 .bgOverlay{
   position: absolute;
   inset: 0;
-  background: #030615;
+  background: #131316;
   opacity: 0.6;
 }
 
@@ -125,7 +128,7 @@ font-size: 1.3rem;
   width: 80%;
   max-width: 800px;
   margin-left: auto;
-  background: #030615;
+  background: rgb(33, 36, 37);
 }
 
 .SidebarContain div{
